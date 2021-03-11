@@ -11,12 +11,12 @@ Registration
 <legend>Basic Information</legend>
 <center>
 <tr>
-<th><lable for="name">Name:</lable></th>
+<th><label for="name">Name:</label></th>
 <td><input type="text" id="name" name="name"></td><br><br>
 </tr>
 
 <tr>
-<th><lable for="gender">Gender:</lable></th>
+<th><label for="gender">Gender:</label></th>
 <td>
 <input type="radio" id="male" name="gender" value="male">
 <label for="male">Male</label>
@@ -25,7 +25,7 @@ Registration
 </td>
 </tr>
 <tr>
-<th>DoB</th>
+<th><label for="dob">DoB:</label></th>
 <td><input type="date" id="dob" name="dob"></td><br><br>
 </tr>
 <tr>
@@ -51,11 +51,58 @@ Registration
 <td><label for="mother"> Mother's name:</label></td>
 <td><input type="text" id="mother" name="mother"></td><br><br>
 </tr>
+</center>
+
+</fieldset>
+<center>
+<fieldset>
+<legend>Contract Information</legend>
+<tr>
+<th><label for="prAdd">present add:</label></th>
+<td><input type="text" id="prAdd" name="prAdd"></td><br><br>
+</tr>
+
+<tr>
+<th><label for="perAdd">permanent add:</label></th>
+<td><input type="text" id="prAdd" name="prAdd"></td><br><br>
+</tr>
+<tr>
+<th><label for="phone">Phone No:</label></th>
+<td><input type="tel" id="phone" name="phone"></td><br><br>
+</tr>
+<tr>
+<th><label for="email">Email:</label></th>
+<td><input type="email" id="email" name="email"></td><br><br>
+</tr>
+<tr>
+<th><label for="WebPageLink">Web Page Link:</label></th>
+<td><input type="url" id="WebPageLink" name="WebPageLink"></td><br><br>
+</tr>
+</fieldset>
+</center>
+<center>
+<fieldset>
+<legend>Academic Information</legend>
+<tr>
+<th><label for="SSCYear">SSC Year:</label></th>
+<td><input type="number" id="SSCYear" name="SSCYear"></td><br><br>
+</tr>
+<tr>
+<th><label for="SSCInstitution">SSC Institution:</label></th>
+<td><input type="text" id="SSCInstitution" name="SSCInstitution"></td><br><br>
+</tr>
+<tr>
+<th><label for="HSCYear">HSC Year:</label></th>
+<td><input type="number" id="HSCYear" name="HSCYear"></td><br><br>
+</tr>
+<tr>
+<th><label for="HSCInstitution">HSC Institution:</label></th>
+<td><input type="text" id="HSCInstitution" name="HSCInstitution"></td><br><br>
+</tr>
+</fieldset>
 <input type="submit" name="submit" value="Submit">
 <input type="reset">
-
 </center>
-</fieldset>
 </body>
 </form>
 </html>
